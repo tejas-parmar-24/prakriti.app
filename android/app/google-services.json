@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1010522056377",
+    "project_id": "prakriti-ayurtech-iitj",
+    "storage_bucket": "prakriti-ayurtech-iitj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010522056377:android:89971397e5926087f45d68",
+        "android_client_info": {
+          "package_name": "com.example.prakriti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010522056377-24j1ruso5fnhmbtbbhmvio3mqbs98bka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvU49_mFT2E8SAfg_oGYtsopVNd7ylpBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010522056377-24j1ruso5fnhmbtbbhmvio3mqbs98bka.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1010522056377-g7uf0jhndd6v2dpnc7k3dcsaqcf8t98b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.prakriti"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

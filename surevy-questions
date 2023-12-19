@@ -1,0 +1,576 @@
+  final List<Map<String, dynamic>> _surveyQuestions = [
+    {
+      'question': 'शरीरिक संगठन(Body Frame)?',
+      'optionsWithPoints': {
+        'संकीर्ण(Narrow)': 1,
+        'मध्यम(Medium)': 2,
+        'चौड़ा(Wide)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question': 'शरीर संहनन(Body Bulk)?',
+      'optionsWithPoints': {
+        'कमजोर विकसित(Weakly Developed)': 1,
+        'मध्यम रूप से विकसित(Moderately Developed)': 2,
+        'अच्छी तरह से विकसित(Well Developed)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question': 'शारीरिक संहनन (मांसपेशीय)Body Build (Musculature)?',
+      'optionsWithPoints': {
+        'पतली मांसलता(Thin Musculature)': 1,
+        'नरम और ढीले ढंग से मांसलता(Soft and Loosely Knitted Musculature)': 2,
+        'स्निग्ध और मजबूती से मांसलता(Smooth and Firmly Knitted Musculature)':
+            3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question': 'माथे की लंबाई(Forehead Length)?',
+      'optionsWithPoints': {
+        'छोटा(Small)': 1,
+        'मध्यम(Medium)': 2,
+        'विशाल(Large)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question': 'नाखून बनावट(Nails Texture)?',
+      'optionsWithPoints': {
+        'खुरदुरा(Rough)': 1,
+        'कोमल(Soft)': 2,
+        'चिकना(Smooth)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question': 'नाखुनो का रंग(Nails Colour)?',
+      'optionsWithPoints': {
+        'पीला(Pale)': 1,
+        'लाल(Reddish)': 2,
+        'गुलाबी(Pink)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question': 'उंगली के नाखुन का आकार(Finger Nail Size)?',
+      'optionsWithPoints': {
+        'छोटा(Small)': 1,
+        'मध्यम(Medium)': 2,
+        'बडा(Large)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question': 'त्वचा की उपस्थिति(Skin Appearance)?',
+      'optionsWithPoints': {
+        'फटा(Cracked)': 1,
+        'खुरदुरा(Rough)': 1,
+        'झुर्रियां(Wrinkles)': 1,
+        'तिल और मस्से(Moles)': 2,
+        'निशान(Marks)': 2,
+        'चहरे पर दाने(Pimples)': 2,
+        'झाईयां(Freckles)': 2,
+        'शोभायमान(Lustrous)': 3,
+        'कोई भी नहीं(None)': 4,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question': 'त्वचा का रंग/आभा(Skin Colour/Complexion)?',
+      'optionsWithPoints': {
+        'गहरा सांवला(Dark)': 1,
+        'काला(Dusky)': 1,
+        'लाल रंग के साथ गोरा(Fair with reddishtinge)': 2,
+        'पीले रंग के साथ गोरा(Fair with yellowishtinge)': 2,
+        'पीताभ रंग के साथ गोरा(Fair with paletinge)': 2,
+        'गेहुआ रंग(Wheatish)': 3,
+        'गुलाबी रंग के साथ गोरा(Fair with pinktinge)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question': 'त्वचा की प्रकृति(Skin Nature)?',
+      'optionsWithPoints': {
+        'सूखी(Dry)': 1,
+        'मौसमी(Seasonal)': 2,
+        'तेलीय(Oily)': 3,
+        'सामान्य (General)': 4,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question': 'त्वचा की बनावट(Skin Texture)?',
+      'optionsWithPoints': {
+        'पतला(Thin)': 1,
+        'मोटा(Thick)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question': 'बालों की बनावट(Hair Texture)?',
+      'optionsWithPoints': {
+        'पतला(Thin)': 1,
+        'मोटा(Thick)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question':
+          'सर पर बाल किस प्रकार के है(Is your scalp hair prone to?(Nature))?',
+      'optionsWithPoints': {
+        'गिरने वाले(Breaking)': 1,
+        'सिरों पर विभाजित(Splitatends)': 1,
+        'दोनो(Both)': 1,
+        'जल्दी गिरने वाले(Falling)': 2,
+        'जल्दी पकने वाले(Graying)': 2,
+        'कोई भी नहीं(None)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question': 'बालों की प्रकृति(Hair Nature)?',
+      'optionsWithPoints': {
+        'सूखा(Dry)': 1,
+        'मौसमी(Seasonal)': 2,
+        'सामान्य (Normal)': 2,
+        'तेलीय(Oily)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question':
+          'क्या आप देखते हैं कि आपके पास है?(Do you observe you have?)?',
+      'optionsWithPoints': {
+        'Nails(नाखून): भंगुर(Brittle)': 1,
+        'Palm(हथेली): फटा(Cracked)': 1,
+        'Sole(सोल): क्रैक्ड(Cracked)': 1,
+        'Lips(होंठ): क्रैक्ड(Cracked)': 1,
+        'Nails(नाखून): गैर भंगुर(Non-Brittle)': 2,
+        'Palm(हथेली): गैर-फटा(Non-cracked)': 2,
+        'Sole(सोल): नॉन-क्रैक्ड(Non-cracked)': 2,
+        'Lips(होंठ): नॉन-क्रैक्ड(Non-cracked)': 2,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': true,
+    },
+    {
+      'question':
+          'आपकी भूख कैसी है?(नियमितता)(How is your appetite?(Regularity))?',
+      'optionsWithPoints': {
+        'अनियमित(Irregular)': 1,
+        'नियमित(Regular)': 2,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question':
+          'आपकी भूख कैसी है?(फ्रीक्वेंसी)(How is your appetite?(Frequency))?',
+      'optionsWithPoints': {
+        'कभी कभी सही(Infrequent)': 1,
+        'अक्सर सही(Frequent)': 2,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question': 'स्वाद वरीयता(Taste Preference)?',
+      'optionsWithPoints': {
+        'खट्टा(Sour)': 1,
+        'नमकीन(Salty)': 1,
+        'मीठा(Sweet)': 2,
+        'कड़वा(Bitter)': 3,
+        'तीखा(Pungent)': 3,
+        'कसैला(Astringent)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question':
+          'आप किस प्रकार का भोजन/पेय पदार्थ पसंद करते हैं?(What type of food/beverages do you prefer?)',
+      'optionsWithPoints': {
+        'गरम (Warm)': 1,
+        'ठंडा(Cold)': 2,
+        'नहीं (None)': 4,
+        'कोई भी(Any)': 4,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question':
+          'भूख लगने पर आप कितनी मात्रा में भोजन कर सकते हैं?(How much quantity of food can you consume on feeling hungry?)',
+      'optionsWithPoints': {
+        'मध्यम(Medium)': 1,
+        'उच्च(High)': 2,
+        'कम(Low)': 3,
+        'बदलता रहता हैं(Variable)': 4,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question':
+          'क्या आप अपने द्वारा खाए गए भोजन की मात्रा को पचा पा रहे हैं?(Are you able to digest the amount of food consumed by you?)',
+      'optionsWithPoints': {
+        'हमेशा कठिनाई से, नहीं कह सकता(Always with difficulty, Cannot say)': 1,
+        'हमेशा हाँ(Always yes)': 2,
+        'यदि अधिक मात्रा में लिया जाता है तो अपच का कारण बनता है अन्यथा हाँ(If excess is taken causes in digestion other wise yes)':
+            3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question':
+          'क्या आप वसा से भरपूर भोजन लेना पसंद करते हैं जैसे(Do you prefer to take food rich in fats like)?',
+      'optionsWithPoints': {
+        'चीज (पनीर)(Cheese)': 1,
+        'पशु चर्बी(AnimalFat)': 1,
+        'तेल या तैलीय वस्तु(Oil or oily articles)': 1,
+        'मक्खनँ(Butter)': 2,
+        'घी(Ghee)': 2,
+        'कोई भी नहीं(None)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': true,
+    },
+    {
+      'question':
+          'क्या आपके शरीर का तापमान सामान्य रहता है?(Does your body temperature in general remains ?)',
+      'optionsWithPoints': {
+        'बदलता रहता है(Variable)': 1,
+        'दूसरों की तुलना में अधिक(Higher compared to others)': 2,
+        'दूसरों की तुलना में कमं(Lower compared to others)': 3,
+        'औसत (Average)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question':
+          'आपके पसीने के बारे में कैसे है?(How about your Perspiration?)',
+      'optionsWithPoints': {
+        'बदलता रहता है(Variable)': 1,
+        'विपुल(Profuse)': 2,
+        'कम(Less)': 3,
+        'संतुलित (Moderate)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question':
+          'आपकी नींद कैसी है?(राशि)(How about your sleep ?(amount))',
+      'optionsWithPoints': {
+        'कम नींद (Less Sleep)(<6घंटे/hrs)': 1,
+        'मध्यम नींद(Moderate sleep(6-8घंटे/hrs))': 2,
+        'भारी नींद (Heavy sleep(>8घंटे/hrs))': 3,
+        'बदलती रहती है(Variable)': 4,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question':
+          'क्या आपको बिस्तर पर जाने के तुरंत बाद नींद आती है?(Do you get sleep immediately after going to bed ?)',
+      'optionsWithPoints': {
+        'नहीं, सो जाने में लंबा समय लगता है(No it takes long time to fall asleep)':
+            1,
+        'कुछ मिनटों के बाद/पढ़ना आदि करना।(After few minutes/doing reading etc)':
+            2,
+        'हाँ (Yes)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question': 'नींद की गुणवत्ता(Quality of Sleep)?',
+      'optionsWithPoints': {
+        'उथली(Shallow)': 1,
+        'मध्यम / ध्वनि।(Moderate/Sound)': 2,
+        'गहरा(Deep)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question':
+          'आपकी शौच प्रवृत्तीआदतों के बारे में कैसे है ?(How about your bowel habits?)',
+      'optionsWithPoints': {
+        'अनियमित(Irregular)': 1,
+        'नियमित(Regular)': 2,
+        'कभी कभी अनियमित(Occasionally Irregular)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question':
+          'शौच के प्रति आपकी प्रवृत्ती केसी है? (अधिकतर)(Do you tend to have ?)',
+      'optionsWithPoints': {
+        'कब्ज(Constipation)': 1,
+        'पतले दस्त(Loose motions)': 2,
+        'कोई भी नहीं(None)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question': 'मल प्रवृत्ती कैसी होती है अधिकतर(Stool Consistency)?',
+      'optionsWithPoints': {
+        'सख्त(Hard)': 1,
+        'ढीला(Loose)': 2,
+        'कोमल(Soft)': 3,
+        'अर्ध ठोस(Semi Solid)': 3,
+        'मध्यम(Medium)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question':
+          'आपके शरीर के वजन में परिवर्तन के बारे में आप कैसे?(How about changes in your body weight ?)',
+      'optionsWithPoints': {
+        'आसानी से वजन बढ़ाएं और आसानी से कम करें(Gain weight easily and loose easily)':
+            1,
+        'वजन बढ़ाने में कठिनाई(Difficulty in gaining weight)': 2,
+        'आसानी से वजन बढ़ाएं लेकिन कठिनाई से कम हो(Gain weight easily but loose with difficulty)':
+            3,
+        'स्थिर(Stable)': 4,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question':
+          'क्या आपके शरीर से दुर्गंध आती है?(Do you have body odor ?)',
+      'optionsWithPoints': {
+        'बहुत हल्का(Very Mild)': 1,
+        'हल्का(Mild)': 2,
+        'बहुत अधिक(Strong)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question':
+          'आप कौन सा मौसम पसंद करते हैं?(Which weather do you prefer ?)',
+      'optionsWithPoints': {
+        'गरम(Warm)': 1,
+        'सभी(All)': 3,
+        'ठंडा(Cold)': 2,
+        'कोई भी नहीं(None)': 4,
+        'ठंडा और गर्म दोनों(Both Cold & Warm)': 4,
+        'मौसमी परिवर्तन का समय(Seasonal Transition)': 4,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question':
+          'आपको किस मौसम में स्वास्थ्य समस्याएं होती हैं?(In which weather do you have health problems ?)',
+      'optionsWithPoints': {
+        'ठंडा(Cold)': 1,
+        'ठंडा और गर्म दोनों(Both Cold & Warm)': 1,
+        'मौसमी परिवर्तन का समय(Seasonal Transition)': 1,
+        'गरम(Warm)': 2,
+        'सभी (All)': 4,
+        'कोई भी नहीं(None)': 4,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question':
+          'आप कितनी बार बीमार पड़ते हैं?(How frequently do you fall ill?)',
+      'optionsWithPoints': {
+        'बार-बार(Frequently)': 1,
+        'मध्यम(Moderately)': 2,
+        'कभी-कभार(Rarely)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question':
+          'यदि आप बीमार पड़ते हैं तो क्या आप आसानी से ठीक हो जाते हैं?(If you fall ill do you get cured easily?)',
+      'optionsWithPoints': {
+        'नहीं, ठीक होने में लंबा समय और मेहनत लगती है(No, it takes long time & effort to get cured)':
+            1,
+        'मध्यम प्रयासों की आवश्यकता है जैसे आहार, आराम और दवा(Moderate efforts needed like diet, rest & medicine)':
+            2,
+        'हाँ, ज्यादातर अपने आप पर(Yes, mostly on its own)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question': 'बोलने की मात्रा(Amount of speaking)?',
+      'optionsWithPoints': {
+        'अत्यधिक(Excessive)': 1,
+        'संतुलित(Moderate)': 2,
+        'कम(Less)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question': 'आवाज की गुणवत्ता(Quality of voice)?',
+      'optionsWithPoints': {
+        'टूटी हुई(Broken)': 1,
+        'खुरदरी(Rough)': 1,
+        'ऊंची ऊंची(High pitched)': 1,
+        'अच्छा टोंड(Good Toned)': 2,
+        'तीखा(Sharp)': 2,
+        'साफ़(Clear)': 2,
+        'चीख कर(Loud)': 2,
+        'कम(Low)': 3,
+        'धीरे(Feeble)': 3,
+        'बहुत धीरे(Weak)': 3,
+        'गहरा(Deep)': 3,
+        'कोमल, मनभावन(Soft,Pleasing)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': true,
+    },
+    {
+      'question': 'बोलने की गति/शैली(Speed/Style of Speaking)?',
+      'optionsWithPoints': {
+        'झटपट(Quick)': 1,
+        'भिन्न रूप से(Variably)': 1,
+        'ऊमध्यम(Medium)': 2,
+        'धीमा(Slow)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question':
+          'स्वैच्छिक और अनैच्छिक गतियां(Voluntary and Involuntary Movements)?',
+      'optionsWithPoints': {
+        'हाथ की गति(Hand Movement):उच्च(High/Excessive)': 1,
+        'हाथ की गति(Hand Movement):अत्यधिक कम(Less)': 2,
+        'हाथ की गति(Hand Movement):मध्यम(Moderate)': 3,
+        'टाँगों की गति(Leg Movement):उच्च(High/Excessive)': 1,
+        'टाँगों की गति(Leg Movement):अत्यधिक कम(Less)': 2,
+        'टाँगों की गति(Leg Movement):मध्यम(Moderate)': 3,
+        'आइब्रो मूवमेंट(Eyebrow Movement):उच्च(High/Excessive)': 1,
+        'आइब्रो मूवमेंट(Eyebrow Movement):अत्यधिक कम(Less)': 2,
+        'आइब्रो मूवमेंट(Eyebrow Movement):मध्यम(Moderate)': 3,
+        'कंधे की गति(Shoulder Movement):उच्च(High/Excessive)': 1,
+        'कंधे की गति(Shoulder Movement):अत्यधिक कम(Less)': 2,
+        'कंधे की गति(Shoulder Movement):मध्यम(Moderate)': 3,
+        'समग्र आंदोलन(Overall Movement):उच्च(High/Excessive)': 1,
+        'समग्र आंदोलन(Overall Movement):अत्यधिक कम(Less)': 2,
+        'समग्र आंदोलन(Overall Movement):मध्यम(Moderate)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': true,
+    },
+    {
+      'question': 'मानसिक शक्ति(Mental Strength)?',
+      'optionsWithPoints': {
+        'बार-बार तनावग्रस्त / परेशान होना और दूसरों द्वारा समझा दिया जा सकता है(Get stressed/disturbed frequently and can be counselled by others)':
+            1,
+        'आसानी से तनाव में आ जाते हैं और दूसरों द्वारा आसानी से सलाह नहीं दी जा सकती(Get stressed easily and cannot be counseled easily by others)':
+            1,
+        'तनावग्रस्त / आसानी से परेशान हो जाते हैं और इसे स्वयं / कुछ समय के साथ दूर कर लेते हैं(Get stressed/disturbed easily and over come it by own / with sometime)':
+            2,
+        'कठिनाई से तनाव में आएं और स्वयं पर काबू पा सकते हैं(Get stressed difficulty and cannot be counseled easily by others)':
+            3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question':
+          'आप कितनी बार थकान महसूस करते हैं?(How frequently you feel tired?)',
+      'optionsWithPoints': {
+        'नियमित कार्य के दौरान(On During routine work)': 1,
+        'भारी मेहनत के बाद भी नहीं(Not even after heavy work)': 2,
+        'अतिरिक्त काम/भारी काम करने के बादं(After doing extra work / heavy work)':
+            3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question':
+          'आप कितनी जल्दी चीजों को याद कर सकते हैं?(How quickly you can memorize things?)',
+      'optionsWithPoints': {
+        'तुरंत(Quickly)': 1,
+        'मध्यम(Moderately)': 2,
+        'धीरे से(Slowly)': 3,
+        'भिन्न रूप से(variably)': 4,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question': 'आप कितने भुलक्कड़ हैं?(How forget ful you are?)',
+      'optionsWithPoints': {
+        'तुरंत(Quickly)': 1,
+        'मध्यम(Moderately)': 2,
+        'धीरे से(Slowly)': 3,
+        'भिन्न रूप से(variably)': 1,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question':
+          'आपकी मेमोरी रिटेंशन पावर कैसी है?(How is your memory retention power?)',
+      'optionsWithPoints': {
+        'बहुत कम(Poor)': 1,
+        'बदलती रहती है(Variable)': 1,
+        'मध्यम(Medium)': 2,
+        'अच्छा(Good)': 3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question': 'क्या आप है एक…(Are you a…)?',
+      'optionsWithPoints': {
+        'दिनचर्या और बदलाव के साथ प्रयोग करना पसंद है(Loving to experiment with routines and change them very readily)':
+            1,
+        'नियमित और दैनिक पर्यवेक्षक(Regular and routine observer)': 2,
+        'सहज और मध्यम नियमित पर्यवेक्षक(Spontaneous and moderate routine observer)':
+            3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+    {
+      'question': 'क्या आपको पसंद है?(Do you like to ?)',
+      'optionsWithPoints': {
+        'घूमें और लोगों से बातचीत करें और एक्सप्लोर करें(Move around and interact with people and explore)':
+            1,
+        'मध्यम रूप से घूमें और बहुत लंबे समय तक न बैठें(Move around moderately and not sit for very long hours)':
+            2,
+        'बैठे रहें और अपने काम तक ही सीमित रहें(Beseated and keep confined to own work)':
+            3,
+      },
+      'selectedOptions': <String>[],
+      'allowMultipleSelection': false,
+    },
+  ];

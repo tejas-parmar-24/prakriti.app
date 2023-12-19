@@ -1,0 +1,16 @@
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-firebase-common-20.3.3-0 /home/tejas/.gradle/caches/transforms-3/04d54205cae76f1c8bb124053dfe73f4/transformed/jetified-firebase-common-20.3.3/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-window-1.0.0-beta04-1 /home/tejas/.gradle/caches/transforms-3/18aed9bf87fc054bde2369bbce815f68/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-annotation-experimental-1.1.0-2 /home/tejas/.gradle/caches/transforms-3/33edf3ee0517c86776bd6cb7682045f3/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-play-services-basement-18.1.0-3 /home/tejas/.gradle/caches/transforms-3/98537e5ec70bbb9b95a3c4905239e936/transformed/jetified-play-services-basement-18.1.0/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-window-java-1.0.0-beta04-4 /home/tejas/.gradle/caches/transforms-3/c432125e31208403c91c32696aef3709/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-core-1.6.0-5 /home/tejas/.gradle/caches/transforms-3/cfb1b99aff7ad9cf4c1b8532c6075063/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-play-services-base-18.0.1-6 /home/tejas/.gradle/caches/transforms-3/f46872f19fc48f4d97e8ffc9ee9d6807/transformed/jetified-play-services-base-18.0.1/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-main-7 /home/tejas/.pub-cache/hosted/pub.dev/cloud_firestore-4.9.2/android/src/main/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-release-8 /home/tejas/.pub-cache/hosted/pub.dev/cloud_firestore-4.9.2/android/src/release/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-pngs-9 /home/tejas/flutter/prakriti/build/cloud_firestore/generated/res/pngs/release
+io.flutter.plugins.firebase.firestore.cloud_firestore-resValues-10 /home/tejas/flutter/prakriti/build/cloud_firestore/generated/res/resValues/release
+io.flutter.plugins.firebase.firestore.cloud_firestore-rs-11 /home/tejas/flutter/prakriti/build/cloud_firestore/generated/res/rs/release
+io.flutter.plugins.firebase.firestore.cloud_firestore-mergeReleaseResources-12 /home/tejas/flutter/prakriti/build/cloud_firestore/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.firestore.cloud_firestore-mergeReleaseResources-13 /home/tejas/flutter/prakriti/build/cloud_firestore/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.firestore.cloud_firestore-merged_res-14 /home/tejas/flutter/prakriti/build/cloud_firestore/intermediates/merged_res/release
+io.flutter.plugins.firebase.firestore.cloud_firestore-packaged_res-15 /home/tejas/flutter/prakriti/build/firebase_core/intermediates/packaged_res/release

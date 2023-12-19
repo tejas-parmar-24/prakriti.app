@@ -1,0 +1,302 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.prakriti"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/home/tejas/flutter/prakriti/android/app/src/debug/AndroidManifest.xml:6:5-66
+15-->/home/tejas/flutter/prakriti/android/app/src/debug/AndroidManifest.xml:6:22-64
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/home/tejas/flutter/prakriti/android/app/src/debug/AndroidManifest.xml:7:5-80
+16-->/home/tejas/flutter/prakriti/android/app/src/debug/AndroidManifest.xml:7:22-78
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/home/tejas/flutter/prakriti/android/app/src/debug/AndroidManifest.xml:8:1-75
+17-->/home/tejas/flutter/prakriti/android/app/src/debug/AndroidManifest.xml:8:18-73
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:26:5-79
+18-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:26:22-76
+19
+20    <permission
+20-->[androidx.core:core:1.9.0] /home/tejas/.gradle/caches/transforms-3/bd8529056bc8c349db80c74675036fa2/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+21        android:name="com.example.prakriti.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.9.0] /home/tejas/.gradle/caches/transforms-3/bd8529056bc8c349db80c74675036fa2/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.9.0] /home/tejas/.gradle/caches/transforms-3/bd8529056bc8c349db80c74675036fa2/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.example.prakriti.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.9.0] /home/tejas/.gradle/caches/transforms-3/bd8529056bc8c349db80c74675036fa2/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.9.0] /home/tejas/.gradle/caches/transforms-3/bd8529056bc8c349db80c74675036fa2/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+25
+26    <application
+27        android:name="io.flutter.app.FlutterMultiDexApplication"
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.9.0] /home/tejas/.gradle/caches/transforms-3/bd8529056bc8c349db80c74675036fa2/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+31        android:label="prakriti" >
+32        <activity
+33            android:name="com.example.prakriti.MainActivity"
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+35            android:exported="true"
+36            android:hardwareAccelerated="true"
+37            android:launchMode="singleTop"
+38            android:theme="@style/LaunchTheme"
+39            android:windowSoftInputMode="adjustResize" >
+40
+41            <!--
+42                 Specifies an Android theme to apply to this Activity as soon as
+43                 the Android process has started. This theme is visible to the user
+44                 while the Flutter UI initializes. After that, this theme continues
+45                 to determine the Window background behind the Flutter UI.
+46            -->
+47            <meta-data
+48                android:name="io.flutter.embedding.android.NormalTheme"
+49                android:resource="@style/NormalTheme" />
+50
+51            <intent-filter>
+52                <action android:name="android.intent.action.MAIN" />
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+55            </intent-filter>
+56        </activity>
+57        <!--
+58             Don't delete the meta-data below.
+59             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+60        -->
+61        <meta-data
+62            android:name="flutterEmbedding"
+63            android:value="2" />
+64
+65        <service
+65-->[:firebase_auth] /home/tejas/flutter/prakriti/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+66            android:name="com.google.firebase.components.ComponentDiscoveryService"
+66-->[:firebase_auth] /home/tejas/flutter/prakriti/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+67            android:directBootAware="true"
+67-->[com.google.firebase:firebase-common:20.3.3] /home/tejas/.gradle/caches/transforms-3/04d54205cae76f1c8bb124053dfe73f4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
+68            android:exported="false" >
+68-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:68:13-37
+69            <meta-data
+69-->[:firebase_auth] /home/tejas/flutter/prakriti/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+70                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+70-->[:firebase_auth] /home/tejas/flutter/prakriti/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[:firebase_auth] /home/tejas/flutter/prakriti/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+72            <meta-data
+72-->[:firebase_storage] /home/tejas/flutter/prakriti/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+73                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+73-->[:firebase_storage] /home/tejas/flutter/prakriti/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-126
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[:firebase_storage] /home/tejas/flutter/prakriti/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+75            <meta-data
+75-->[:cloud_firestore] /home/tejas/flutter/prakriti/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+76                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+76-->[:cloud_firestore] /home/tejas/flutter/prakriti/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[:cloud_firestore] /home/tejas/flutter/prakriti/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+78            <meta-data
+78-->[:firebase_core] /home/tejas/flutter/prakriti/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+79-->[:firebase_core] /home/tejas/flutter/prakriti/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[:firebase_core] /home/tejas/flutter/prakriti/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:69:13-71:85
+82                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+82-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:70:17-109
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:71:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-firestore:24.7.1] /home/tejas/.gradle/caches/transforms-3/3dce6fde18f3ec1bf1782514ec3d512c/transformed/jetified-firebase-firestore-24.7.1/AndroidManifest.xml:17:13-19:85
+85                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+85-->[com.google.firebase:firebase-firestore:24.7.1] /home/tejas/.gradle/caches/transforms-3/3dce6fde18f3ec1bf1782514ec3d512c/transformed/jetified-firebase-firestore-24.7.1/AndroidManifest.xml:18:17-111
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-firestore:24.7.1] /home/tejas/.gradle/caches/transforms-3/3dce6fde18f3ec1bf1782514ec3d512c/transformed/jetified-firebase-firestore-24.7.1/AndroidManifest.xml:19:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-storage:20.2.1] /home/tejas/.gradle/caches/transforms-3/c4e1824a097b439b965a61b27dc88183/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:32:13-34:85
+88                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+88-->[com.google.firebase:firebase-storage:20.2.1] /home/tejas/.gradle/caches/transforms-3/c4e1824a097b439b965a61b27dc88183/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:33:17-107
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-storage:20.2.1] /home/tejas/.gradle/caches/transforms-3/c4e1824a097b439b965a61b27dc88183/transformed/jetified-firebase-storage-20.2.1/AndroidManifest.xml:34:17-82
+90        </service>
+91
+92        <provider
+92-->[:open_file] /home/tejas/flutter/prakriti/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-20:20
+93            android:name="com.crazecoder.openfile.FileProvider"
+93-->[:open_file] /home/tejas/flutter/prakriti/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+94            android:authorities="com.example.prakriti.fileProvider.com.crazecoder.openfile"
+94-->[:open_file] /home/tejas/flutter/prakriti/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-88
+95            android:exported="false"
+95-->[:open_file] /home/tejas/flutter/prakriti/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
+96            android:grantUriPermissions="true" >
+96-->[:open_file] /home/tejas/flutter/prakriti/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-47
+97            <meta-data
+97-->[:open_file] /home/tejas/flutter/prakriti/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-19:53
+98                android:name="android.support.FILE_PROVIDER_PATHS"
+98-->[:open_file] /home/tejas/flutter/prakriti/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-67
+99                android:resource="@xml/filepaths" />
+99-->[:open_file] /home/tejas/flutter/prakriti/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-50
+100        </provider>
+101        <provider
+101-->[:share] /home/tejas/flutter/prakriti/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+102            android:name="io.flutter.plugins.share.ShareFileProvider"
+102-->[:share] /home/tejas/flutter/prakriti/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-70
+103            android:authorities="com.example.prakriti.flutter.share_provider"
+103-->[:share] /home/tejas/flutter/prakriti/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+104            android:exported="false"
+104-->[:share] /home/tejas/flutter/prakriti/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+105            android:grantUriPermissions="true" >
+105-->[:share] /home/tejas/flutter/prakriti/build/share/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+106            <meta-data
+106-->[:open_file] /home/tejas/flutter/prakriti/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-19:53
+107                android:name="android.support.FILE_PROVIDER_PATHS"
+107-->[:open_file] /home/tejas/flutter/prakriti/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-67
+108                android:resource="@xml/flutter_share_file_paths" />
+108-->[:open_file] /home/tejas/flutter/prakriti/build/open_file/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-50
+109        </provider>
+110
+111        <uses-library
+111-->[androidx.window:window:1.0.0-beta04] /home/tejas/.gradle/caches/transforms-3/18aed9bf87fc054bde2369bbce815f68/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+112            android:name="androidx.window.extensions"
+112-->[androidx.window:window:1.0.0-beta04] /home/tejas/.gradle/caches/transforms-3/18aed9bf87fc054bde2369bbce815f68/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+113            android:required="false" />
+113-->[androidx.window:window:1.0.0-beta04] /home/tejas/.gradle/caches/transforms-3/18aed9bf87fc054bde2369bbce815f68/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+114        <uses-library
+114-->[androidx.window:window:1.0.0-beta04] /home/tejas/.gradle/caches/transforms-3/18aed9bf87fc054bde2369bbce815f68/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+115            android:name="androidx.window.sidecar"
+115-->[androidx.window:window:1.0.0-beta04] /home/tejas/.gradle/caches/transforms-3/18aed9bf87fc054bde2369bbce815f68/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+116            android:required="false" />
+116-->[androidx.window:window:1.0.0-beta04] /home/tejas/.gradle/caches/transforms-3/18aed9bf87fc054bde2369bbce815f68/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+117
+118        <activity
+118-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:29:9-46:20
+119            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+119-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:30:13-80
+120            android:excludeFromRecents="true"
+120-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:31:13-46
+121            android:exported="true"
+121-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:32:13-36
+122            android:launchMode="singleTask"
+122-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:33:13-44
+123            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+123-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:34:13-72
+124            <intent-filter>
+124-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:35:13-45:29
+125                <action android:name="android.intent.action.VIEW" />
+125-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:36:17-69
+125-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:36:25-66
+126
+127                <category android:name="android.intent.category.DEFAULT" />
+127-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:38:17-76
+127-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:38:27-73
+128                <category android:name="android.intent.category.BROWSABLE" />
+128-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:39:17-78
+128-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:39:27-75
+129
+130                <data
+130-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:41:17-44:51
+131                    android:host="firebase.auth"
+131-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:42:21-49
+132                    android:path="/"
+132-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:43:21-37
+133                    android:scheme="genericidp" />
+133-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:44:21-48
+134            </intent-filter>
+135        </activity>
+136        <activity
+136-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:47:9-64:20
+137            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+137-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:48:13-79
+138            android:excludeFromRecents="true"
+138-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:49:13-46
+139            android:exported="true"
+139-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:50:13-36
+140            android:launchMode="singleTask"
+140-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:51:13-44
+141            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+141-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:52:13-72
+142            <intent-filter>
+142-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:53:13-63:29
+143                <action android:name="android.intent.action.VIEW" />
+143-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:36:17-69
+143-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:36:25-66
+144
+145                <category android:name="android.intent.category.DEFAULT" />
+145-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:38:17-76
+145-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:38:27-73
+146                <category android:name="android.intent.category.BROWSABLE" />
+146-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:39:17-78
+146-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:39:27-75
+147
+148                <data
+148-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:41:17-44:51
+149                    android:host="firebase.auth"
+149-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:42:21-49
+150                    android:path="/"
+150-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:43:21-37
+151                    android:scheme="recaptcha" />
+151-->[com.google.firebase:firebase-auth:22.1.1] /home/tejas/.gradle/caches/transforms-3/2b8300fb790ecda625aac0b316e7f3fa/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:44:21-48
+152            </intent-filter>
+153        </activity>
+154
+155        <provider
+155-->[com.google.firebase:firebase-common:20.3.3] /home/tejas/.gradle/caches/transforms-3/04d54205cae76f1c8bb124053dfe73f4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+156            android:name="com.google.firebase.provider.FirebaseInitProvider"
+156-->[com.google.firebase:firebase-common:20.3.3] /home/tejas/.gradle/caches/transforms-3/04d54205cae76f1c8bb124053dfe73f4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+157            android:authorities="com.example.prakriti.firebaseinitprovider"
+157-->[com.google.firebase:firebase-common:20.3.3] /home/tejas/.gradle/caches/transforms-3/04d54205cae76f1c8bb124053dfe73f4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+158            android:directBootAware="true"
+158-->[com.google.firebase:firebase-common:20.3.3] /home/tejas/.gradle/caches/transforms-3/04d54205cae76f1c8bb124053dfe73f4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+159            android:exported="false"
+159-->[com.google.firebase:firebase-common:20.3.3] /home/tejas/.gradle/caches/transforms-3/04d54205cae76f1c8bb124053dfe73f4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+160            android:initOrder="100" />
+160-->[com.google.firebase:firebase-common:20.3.3] /home/tejas/.gradle/caches/transforms-3/04d54205cae76f1c8bb124053dfe73f4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+161
+162        <activity
+162-->[com.google.android.gms:play-services-base:18.0.1] /home/tejas/.gradle/caches/transforms-3/f46872f19fc48f4d97e8ffc9ee9d6807/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+163            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+163-->[com.google.android.gms:play-services-base:18.0.1] /home/tejas/.gradle/caches/transforms-3/f46872f19fc48f4d97e8ffc9ee9d6807/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+164            android:exported="false"
+164-->[com.google.android.gms:play-services-base:18.0.1] /home/tejas/.gradle/caches/transforms-3/f46872f19fc48f4d97e8ffc9ee9d6807/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+165            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+165-->[com.google.android.gms:play-services-base:18.0.1] /home/tejas/.gradle/caches/transforms-3/f46872f19fc48f4d97e8ffc9ee9d6807/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+166
+167        <meta-data
+167-->[com.google.android.gms:play-services-basement:18.1.0] /home/tejas/.gradle/caches/transforms-3/98537e5ec70bbb9b95a3c4905239e936/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+168            android:name="com.google.android.gms.version"
+168-->[com.google.android.gms:play-services-basement:18.1.0] /home/tejas/.gradle/caches/transforms-3/98537e5ec70bbb9b95a3c4905239e936/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+169            android:value="@integer/google_play_services_version" />
+169-->[com.google.android.gms:play-services-basement:18.1.0] /home/tejas/.gradle/caches/transforms-3/98537e5ec70bbb9b95a3c4905239e936/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+170
+171        <provider
+171-->[androidx.emoji2:emoji2:1.2.0] /home/tejas/.gradle/caches/transforms-3/3575f8ed23a71f7451e37a6f92230407/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+172            android:name="androidx.startup.InitializationProvider"
+172-->[androidx.emoji2:emoji2:1.2.0] /home/tejas/.gradle/caches/transforms-3/3575f8ed23a71f7451e37a6f92230407/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+173            android:authorities="com.example.prakriti.androidx-startup"
+173-->[androidx.emoji2:emoji2:1.2.0] /home/tejas/.gradle/caches/transforms-3/3575f8ed23a71f7451e37a6f92230407/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+174            android:exported="false" >
+174-->[androidx.emoji2:emoji2:1.2.0] /home/tejas/.gradle/caches/transforms-3/3575f8ed23a71f7451e37a6f92230407/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+175            <meta-data
+175-->[androidx.emoji2:emoji2:1.2.0] /home/tejas/.gradle/caches/transforms-3/3575f8ed23a71f7451e37a6f92230407/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+176                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+176-->[androidx.emoji2:emoji2:1.2.0] /home/tejas/.gradle/caches/transforms-3/3575f8ed23a71f7451e37a6f92230407/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+177                android:value="androidx.startup" />
+177-->[androidx.emoji2:emoji2:1.2.0] /home/tejas/.gradle/caches/transforms-3/3575f8ed23a71f7451e37a6f92230407/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+178            <meta-data
+178-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/tejas/.gradle/caches/transforms-3/893cc0c27c498bc7788946124c0febe4/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+179                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+179-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/tejas/.gradle/caches/transforms-3/893cc0c27c498bc7788946124c0febe4/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+180                android:value="androidx.startup" />
+180-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/tejas/.gradle/caches/transforms-3/893cc0c27c498bc7788946124c0febe4/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+181        </provider>
+182    </application>
+183
+184</manifest>
